@@ -174,10 +174,14 @@ export default {
 </script>
 
 <style lang="scss" scoped >
+    .el-form-item__label {
+      color: #333333!important;
+    }
     .login-wrap{
         width: 100%;
         height: 100vh;
         background: url('~/assets/img/banner/login.jpg') center no-repeat;
+        background-size: cover;
         position: relative;
         .registerForm{
             width: 320px;
@@ -186,8 +190,11 @@ export default {
             left: -400px;
             transform: translate(0, -50%);
             transition: all 1.5s ease;
+            padding: 20px 50px 0 20px;
+            background-color: rgba(255,255,255,0.4);
+            border-radius: 10px;
             .avatar-uploader{
-                border: 1px dashed #666;
+                border: 1px dashed #ffffff;
                 cursor: pointer;
                 height: 60px;
                 width: 60px;
@@ -200,7 +207,7 @@ export default {
                 }
                 .avatar-uploader-icon {
                     font-size: 22px;
-                    color: #8c939d;
+                    color: #ffffff;
                     display: block;
                     line-height: 60px;
                     text-align: center;

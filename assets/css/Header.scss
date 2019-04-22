@@ -15,6 +15,11 @@
         background:rgb(255, 255, 255);
         box-shadow: 0 1px 40px -8px rgba(0,0,0,.5);
         z-index: 99999999;
+        .search-header{
+          span i {
+            color: #333333;
+          }
+        }
     }
     header{
         position: fixed;
@@ -27,8 +32,13 @@
         background: transparent;
         z-index: 999;
         &:hover{
-            background:#fff;
-            box-shadow: 0 1px 40px 4px rgba(0,0,0,.5);
+          background:#fff;
+          box-shadow: 0 1px 40px 4px rgba(0,0,0,.5);
+          .search-header{
+            span i {
+              color: #333333;
+            }
+          }
         }
         &:hover .right{
             display: block!important;
@@ -139,7 +149,7 @@
                 height: 100%;
                 i{
                     font-size: 30px;
-                    color: #666;
+                    color: #ffffff;
                     &:hover{
                         color: rgb(254, 150, 0);
                     }
@@ -176,7 +186,7 @@
                     font-size: 18px;
                 }
             }
-        }
+          }
     }
     .goTop{
         width: 70px;

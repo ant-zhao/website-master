@@ -138,6 +138,7 @@ export default {
         width: 100%;
         height: 100vh;
         background: url('~/assets/img/banner/login.jpg') center no-repeat;
+        background-size: cover;
         position: relative;
         .registerForm{
             width: 320px;
@@ -146,8 +147,11 @@ export default {
             left: -400px;
             transform: translate(0, -50%);
             transition: all 1.5s ease;
+            .el-form-item__label {
+              color: #ffffff;
+            }
             .avatar-uploader{
-                border: 1px dashed #666;
+                border: 1px dashed #ffffff;
                 cursor: pointer;
                 height: 60px;
                 width: 60px;
