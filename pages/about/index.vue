@@ -42,7 +42,7 @@ export default {
         .img {
             width: 100%;
             height: 65vh;
-            background: url("~/assets/img/banner/hand.jpeg") center no-repeat;
+            background: url("~/assets/img/banner/hand.jpg") center no-repeat;
             background-size: cover;
             transition: all 0.5s ease;
         }
